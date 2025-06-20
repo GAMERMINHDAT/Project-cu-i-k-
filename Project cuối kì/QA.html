@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đánh Giá Nhà Hàng</title>
+  <link rel="stylesheet" href="QA.css">
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+  </style>
+  <script src="QA.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <p>
+        <img src="phone.png" alt="Phone" class="contact-icon" /> 0365644205 |
+        <img src="mail.png" alt="Email" class="contact-icon" />
+        datt0365644205@gmail.com
+      </p>
+      <div class="social-icons">
+        <img src="twitter.png" alt="Twitter" class="social-icon" />
+        <img src="fb.png" alt="Facebook" class="social-icon" />
+        <img src="insta.png" alt="Instagram" class="social-icon" />
+        <img src="printest.png" alt="Meo" class="social-icon" />
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="logo-section">
+        <img src="logo.png" alt="Other Logo" class="other-logo" />
+        <h1 class="logo-text">Tứ Anh Em</h1>
+      </div>
+      <ul>
+        <li><a href="Home.html" >Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="Pages.html">Pages</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="QA.html" class="active">Rate us</a></li>
+      </ul>
+      <a href="Booking.html" class="btn-book">Đặt món</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>Đánh Giá Nhà Hàng</h1>
+
+    <div class="review-cards">
+      <div class="review-card">
+        <div class="rating">
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+        </div>
+        <div class="review-content">
+          Nghe nói ăn tạp là không tốt, nhưng tôi thì lại thấy đây là cách sống lý tưởng!
+        </div>
+        <div class="review-footer">
+          <span>Chu Sơn</span>
+          <span>2024-04-15</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <h2>Để lại đánh giá</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Tên:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="rating">Đánh giá (1-5 sao):</label>
+          <input type="number" id="rating" name="rating" min="1" max="5" required>
+        </div>
+        <div class="form-group">
+          <label for="review">Nội dung đánh giá:</label>
+          <textarea id="review" name="review" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Gửi đánh giá</button>
+        </div>
+        <div class="back-button">
+            <button onclick="window.location.href='Home.html'">Quay lại trang chủ</button>
+          </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

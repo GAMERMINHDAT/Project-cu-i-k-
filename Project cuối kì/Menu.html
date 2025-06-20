@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-y: auto; 
+            overflow-x: hidden; 
+          }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p>
+                <img src="phone.png" alt="Phone" class="contact-icon"> 0365644205 |
+                <img src="mail.png" alt="Email" class="contact-icon"> datt0365644205@gmail.com
+            </p>
+            <div class="social-icons">
+                <img src="twitter.png" alt="Twitter" class="social-icon">
+                <img src="fb.png" alt="Facebook" class="social-icon">
+                <img src="insta.png" alt="Instagram" class="social-icon">
+                <img src="printest.png" alt="Meo" class="social-icon">
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="logo-section">
+                <img src="logo.png" alt="Other Logo" class="other-logo">
+                <h1 class="logo-text">Tứ Anh Em</h1>
+            </div>
+            <ul>
+                <li><a href="Home.html" >Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Menu.html"class="active">Menu</a></li>
+                <li><a href="Pages.html">Pages</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="QA.html">Rate us</a></li>
+            </ul>
+            <a href="Booking.html" class="btn-book">Đặt Bàn</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="menu-section">
+            <h1>Thực Đơn Của Chúng Tôi</h1>
+            <p>Chúng tôi cân nhắc tất cả các yếu tố thay đổi để mang đến cho bạn các thành phần bạn cần để tạo ra một sự thay đổi thực sự.</p>
+            <div class="menu-filters">
+                <button class="filter-btn active">Tất Cả</button>
+                <button class="filter-btn">Bữa Sáng</button>
+                <button class="filter-btn">Món Chính</button>
+                <button class="filter-btn">Đồ Uống</button>
+                <button class="filter-btn">Tráng Miệng</button>
+            </div>            
+            <div class="menu-items">
+                <!-- Mục Thực Đơn -->
+                <div class="menu-item" data-category="breakfast">
+                    <img src="Phở bò.jpg" alt="Phở bò">
+                    <h3>30.000 đồng</h3>
+                    <p><strong>Phở bò</strong></p>
+                    <p>Phở bò là hương vị đặc trưng của ẩm thực Việt Nam, với nước dùng ngọt thanh từ xương hầm, thịt bò, và hương thơm quyến rũ của các loại gia vị </p>
+                </div>
+                <div class="menu-item" data-category="breakfast">
+                    <img src="Phở chay.jpg" alt="Phở chay">
+                    <h3>25.000 đồng</h3>
+                    <p><strong>Phở chay</strong></p>
+                    <p>Phở chay là món phở thanh đạm với nước dùng từ rau củ, ăn cùng bánh phở và rau thơm </p>
+                </div>
+                <div class="menu-item" data-category="breakfast">
+                    <img src="Phở gà.jpg" alt="Phở gà">
+                    <h3>30.000 đồng</h3>
+                    <p><strong>Phở gà</strong></p>
+                    <p>Phở gà là món ăn truyền thống Việt Nam với bánh phở, thịt gà và nước dùng thơm ngon.</p>
+                </div>
+                <div class="menu-item" data-category="breakfast">
+                    <img src="Phở trâu.jpg" alt="Phở trâu">
+                    <h3>35.000 đồng</h3>
+                    <p><strong>Phở trâu</strong></p>
+                    <p>Phở trâu là món ăn truyền thống Việt Nam với bánh phở, thịt trâu ngon , các loại rau hành và nước dùng thơm ngon.</p>
+                </div>
+                <div class="menu-item" data-category="breakfast">
+                    <img src="Bún cá.jpg" alt="Bún cá">
+                    <h3>25.000 đồng</h3>
+                    <p><strong>Bún cá</strong></p>
+                    <p>Bún cá là món ăn truyền thống Việt Nam với những sợi bún ngon,cá chiên,các loại rau hành và nước dùng thơm ngon.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="Phở chua.jpg" alt="Phở chua">
+                    <h3>30.000 đồng</h3>
+                    <p><strong>Phở chua</strong></p>
+                    <p>Phở chua là món phở độc đáo, có vị chua ngọt, ăn kèm thịt, rau sống,ớt cay và lạc rang.</p>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="Phở trộn.jpg" alt="Phở trộn">
+                    <h3>30.000 đồng</h3>
+                    <p><strong>Phở trộn</strong></p>
+                    <p>Phở trộn là món phở khô kết hợp thịt, rau thơm và nước sốt đậm đà, hài hòa hương vị.</p>
+                </div> 
+                <div class="menu-item" data-category="main">
+                    <img src="Bún đậu mắm tôm.jpg" alt="Bún đậu mắm tôm">
+                    <h3>30.000 đồng</h3>
+                    <p><strong>Bún đậu mắm tôm</strong></p>
+                    <p>Bún đậu mắm tôm là món ăn dân dã với bún, đậu rán giòn, các loại chả, và mắm tôm đậm đà.</p>
+                </div> 
+                <div class="menu-item" data-category="main">
+                    <img src="Bún bò Huế.jpg" alt="Bún đậu mắm tôm">
+                    <h3>30.000 đồng</h3>
+                    <p><strong>Bún đậu mắm tôm</strong></p>
+                    <p>Bún đậu mắm tôm là món ăn dân dã với bún, đậu rán giòn, các loại chả, và mắm tôm đậm đà.</p>
+                </div> 
+                <div class="menu-item" data-category="main">
+                    <img src="Bún thịt nướng.jpg" alt="Bún thịt nướng">
+                    <h3>40.000 đồng</h3>
+                    <p><strong>Bún thịt nướng</strong></p>
+                    <p>Bún thịt nướng là món ăn thơm ngon với bún, thịt nướng, rau sống ,cùng với các món phụ kèm và nước mắm chua ngọt</p>
+                </div> 
+                <div class="menu-item" data-category="dinner">
+                    <img src="Phở sốt vang.jpg" alt="Phở sốt vang">
+                    <h3>70.000 đồng</h3>
+                    <p><strong>Phở sốt vang</strong></p>
+                    <p>Phở sốt vang là món phở đặc biệt với thịt bò hầm mềm, nước dùng đậm đà và hương vị thơm nồng.</p>
+                </div>
+                <div class="menu-item" data-category="dinner">
+                    <img src="Phở cuốn.jpg" alt="Phở cuốn">
+                    <h3>7.000 đồng/cuốn</h3>
+                    <p><strong>Phở cuốn</strong></p>
+                    <p>Phở cuốn là món ăn tươi mát với bánh phở cuộn thịt, rau sống,,dứa ngọt,phở chấm cùng nước mắm chua ngọt.</p>
+                </div>
+                <div class="menu-item" data-category="dinner">
+                    <img src="Phở xào.jpg" alt="Phở xào">
+                    <h3>30.000 đồng</h3>
+                    <p><strong>Phở cuốn</strong></p>
+                    <p>Phở xào là món ăn đậm đà với bánh phở xào giòn, thịt, rau củ và nước sốt thơm ngon.</p>
+                </div>
+                <div class="menu-item" data-category="dinner">
+                    <img src="Cơm rang hải sản.jpg" alt="Cơm rang hải sản">
+                    <h3>50.000 đồng</h3>
+                    <p><strong>Cơm rang hải sản</strong></p>
+                    <p>Cơm rang hải sản là món ăn hấp dẫn với cơm rang giòn, tôm, mực hòa quyện cùng với các nước xốt gia vị và rau củ tươi ngon.</p>
+                </div>
+                <div class="menu-item" data-category="dinner">
+                    <img src="Cơm rang kim chi.jpg" alt="Cơm rang kim chi">
+                    <h3>30.000 đồng</h3>
+                    <p><strong>Cơm rang kim chi</strong></p>
+                    <p>Cơm rang kim chi là sự kết hợp hoàn hảo giữa vị chua cay của kim chi và hương vị đậm đà của cơm rang, tạo nên món ăn thơm ngon và hấp dẫn.</p>
+                </div>
+                <div class="menu-item" data-category="drink">
+                    <img src="Rượu Vodka.jpg" alt="Rượu Vodka">
+                    <h3>70.000 đồng</h3>
+                    <p><strong>Rượu Vodka</strong></p>
+                    <p>Vodka là dòng rượu mạnh phổ biến nhất thế giới ngày nay,đem lại sự say me quyến rũ cho khách hàng.</p>
+                </div>
+                <div class="menu-item" data-category="drink">
+                    <img src="Bia Sài Gòn.jpg" alt="Bia Sài Gòn">
+                    <h3>7.000 đồng /lon</h3>
+                    <p><strong>Bia Sài Gòn</strong></p>
+                    <p>Bia Sài Gòn là thức uống mang đậm hương vị Việt, tươi mát và sảng khoái, lý tưởng cho những buổi gặp gỡ bạn bè.</p>
+                </div>
+                <div class="menu-item" data-category="drink">
+                    <img src="Bia Hà Nội.jpg" alt="Bia Hà Nội">
+                    <h3>7.000 đồng /lon</h3>
+                    <p><strong>Bia Hà Nội</strong></p>
+                    <p>Bia Hà Nội là thức uống mang đậm hương vị Việt, tươi mát và sảng khoái, lý tưởng cho những buổi gặp gỡ bạn bè.</p>
+                </div>
+                <div class="menu-item" data-category="drink">
+                    <img src="Rượu Cognac.jpg" alt="Rượu Cognac">
+                    <h3>80.000 đồng</h3>
+                    <p><strong>Rượu Cognac</strong></p>
+                    <p>Rượu Cognac là loại rượu mạnh hảo hạng, mang hương vị tinh tế và sâu lắng, là biểu tượng của sự sang trọng và đẳng cấp.</p>
+                </div>
+                <div class="menu-item" data-category="drink">
+                    <img src="Rượu Whiskey.jpg" alt="Rượu Whiskey">
+                    <h3>80.000 đồng</h3>
+                    <p><strong>Rượu Whiskey</strong></p>
+                    <p>Rượu whiskey là thức uống đậm đà và mạnh mẽ, với hương vị phức hợp, mang đến trải nghiệm sâu sắc và đầy cá tính.</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <img src="Trà chanh.jpg" alt="Trà chanh">
+                    <h3>10.000 đồng</h3>
+                    <p><strong>Trà chanh</strong></p>
+                    <p>Trà chanh là thức uống giải khát mát lạnh, chua ngọt hài hòa, mang đến cảm giác sảng khoái và dễ chịu.</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <img src="Trà đào cam sả.jpg" alt="Trà đào cam sả">
+                    <h3>10.000 đồng</h3>
+                    <p><strong>Trà đào cam sả</strong></p>
+                    <p>Trà đào cam sả là thức uống thanh mát, hòa quyện vị ngọt của đào, chua nhẹ của cam và hương thơm sả, mang lại cảm giác thư giãn và tươi mới.</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <img src="Trà nhân trần.jpg" alt="Trà nhân trần">
+                    <h3>5000 đồng</h3>
+                    <p><strong>Trà nhân trần</strong></p>
+                    <p>Trà nhân trần là thức uống thanh nhiệt, có hương vị nhẹ nhàng, giúp giải độc và tăng cường sức khỏe.</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <img src="Trà tắc.jpg" alt="Trà tắc">
+                    <h3>10.000 đồng</h3>
+                    <p><strong>Trà tắc</strong></p>
+                    <p>Trà tắc là thức uống chua ngọt sảng khoái, kết hợp hương vị tắc tươi mát, giúp giải khát và tiếp thêm năng lượng</p>
+                </div>
+                <div class="menu-item" data-category="dessert">
+                    <img src="Cà phê sữa.jpg" alt="Cà phê sữa">
+                    <h3>15.000 đồng</h3>
+                    <p><strong>Cà phê sữa</strong></p>
+                    <p>Cà phê sữa là sự kết hợp hài hòa giữa vị đậm đà của cà phê và vị béo ngọt của sữa, mang đến hương vị thơm ngon khó quên.</p>
+                </div>                    
+        </section>
+        </main>
+
+        <section class="order-apps-section">
+            <div class="text-content">
+              <h2>Bạn có thể đặt hàng qua ứng dụng</h2>
+              <p>Các ứng dụng sẽ mang lại trải nghiệm tốt cho mọi người. 
+                Cảm ơn vì đã ủng hộ.</p>
+            </div>
+        
+            <div class="apps-container">
+              <div class="app-card"><img src="Uber.jpg" alt="Uber Eats"></div>
+              <div class="app-card"><img src="Grab.jpg" alt="Grab"></div>
+              <div class="app-card"><img src="Sendo.jpg" alt="Sendo"></div>
+              <div class="app-card"><img src="Shopee.jpg" alt="Shopee"></div>
+              <div class="app-card"><img src="Be.jpg" alt="Be"></div>
+              <div class="app-card"><img src="Giaohangtietkiem.jpg" alt="Giaohangtietkiem"></div>
+              <div class="app-card"><img src="Gofood.jpg" alt="Gofood"></div>
+              <div class="app-card"><img src="Capichi.jpg" alt="Capichi"></div>
+              <div class="app-card"><img src="Ahamove.jpg" alt="Ahamove"></div>
+            </div>
+          </section>
+        
+        
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-section">
+            <div class="logo-and-name">
+                <img src="logo2.png" alt="Shop Logo" class="shop-logo"> <!-- Logo của shop -->
+                <h2><Table>Tứ Anh Em</Table></h2> <!-- Tên shop -->
+            </div>
+            <p>Trong kỷ nguyên công nghệ mới, chúng tôi nhìn về tương lai với sự chắc chắn và tự hào về công ty của mình .</p>
+            <div class="social-icons">
+                <a href="https://twitter.com" target="_blank">
+                    <img src="tw1.png" alt="Twitter Icon" class="social-icon">
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="fb2.png" alt="Facebook Icon" class="social-icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="ins3.png" alt="Instagram Icon" class="social-icon">
+                </a>
+                <a href="https://pinterest.com" target="_blank">
+                    <img src="m4.png" alt="Pinterest Icon" class="social-icon">
+                </a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Pages</h3>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Pages.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Booking.html">Book A Table</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Utility Pages</h3>
+            <ul>
+                <li><a href="404.html">404 Not Found</a></li>
+                <li><a href="Licenses.html">Licenses</a></li>
+                <li><a href="Q&A.html">Evaluate</a></li>
+                <li><a href="https://didau.com/">View More</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Theo dõi chúng tôi trên Instagram</h3>
+            <div class="footer-images">
+                <img src="Phở bò.jpg" alt="Instagram Image 1">
+                <img src="Phở chay.jpg" alt="Instagram Image 2">
+                <img src="Cơm rang kim chi.jpg" alt="Instagram Image 3">
+                <img src="Phở cuốn.jpg" alt="Instagram Image 4">
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Hashtag Developer. All Rights Reserved</p>
+    </div>
+</footer>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const menuItems = document.querySelectorAll(".menu-item");
+
+    filterButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            // Kiểm tra sự kiện click
+            console.log(`Clicked on: ${button.textContent}`);
+
+            // Xóa lớp 'active' khỏi tất cả các nút và thêm vào nút hiện tại
+            filterButtons.forEach(btn => btn.classList.remove("active"));
+            button.classList.add("active");
+
+            const category = button.textContent.trim();
+
+            // Hiển thị hoặc ẩn các mục menu
+            menuItems.forEach(item => {
+                const itemCategory = item.dataset.category;
+                if (category === "Tất Cả" || 
+                    (category === "Bữa Sáng" && itemCategory === "breakfast") || 
+                    (category === "Món Chính" && itemCategory === "main") || 
+                    (category === "Đồ Uống" && itemCategory === "drink") || 
+                    (category === "Tráng Miệng" && itemCategory === "dessert") ||
+                    (category === "Bữa tối" && itemCategory === "dinner")) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        })
+    });
+});
+</script>
+
+<script src="Home.js"></script>
+
+</body>
+</html>
